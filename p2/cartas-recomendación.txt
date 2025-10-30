@@ -1,0 +1,87 @@
+Cartas de recomendación a María Coma
+
+===========================================
+CARTA DE RECOMENDACIÓN – TECHSOLUTIONS
+===========================================
+
+Valencia, 12 de marzo de 2024
+
+A quien corresponda:
+
+Durante los cinco años en que María Coma trabajó en TechSolutions como Desarrolladora de Software,
+demostró ser una profesional altamente competente y comprometida.
+Su dominio de tecnologías como Java, Python, MySQL y PostgreSQL fue fundamental
+para la mejora de varios de nuestros productos internos.
+
+Además de su capacidad técnica, destaco su liderazgo en equipo, su orientación
+a resultados y su actitud proactiva ante los desafíos.
+Fue pieza clave en la migración de sistemas a entornos en la nube
+y en la implementación de metodologías ágiles.
+
+Recomiendo a XXX sin reservas para cualquier posición de desarrollo o gestión técnica.
+
+Atentamente,
+
+Laura Fernández
+Directora de Tecnología (CTO)
+TechSolutions S.L.
+laura.fernandez@techsolutions.es
+
+
+===========================================
+CARTA DE RECOMENDACIÓN – NETCLOUD SERVICES
+===========================================
+
+Madrid, 8 de enero de 2019
+
+Estimados señores:
+
+Tuve el placer de supervisar el trabajo de María Coma durante cuatro años en NetCloud Services,
+donde desempeñó el cargo de Administradora de Sistemas.
+Desde el inicio, destacó por su solidez técnica, su capacidad analítica
+y su compromiso con la seguridad informática.
+
+Entre sus logros más relevantes se encuentran la automatización de procesos
+de despliegue mediante Docker y la creación de políticas de monitorización preventiva
+que redujeron los tiempos de inactividad en un 30%.
+
+Su profesionalismo, ética y curiosidad por la mejora continua la convierten
+en una colaboradora excepcional.
+
+Atentamente,
+
+Carlos Medina
+Jefe de Operaciones
+NetCloud Services
+c.medina@netcloudservices.com
+
+
+===========================================
+CARTA DE RECOMENDACIÓN – GLOBALTECH
+===========================================
+
+Valencia, 14 de septiembre de 2015
+
+A quien pueda interesar:
+
+Certifico que María Coma trabajó en GlobalTech entre 2012 y 2015 como Técnica de Soporte Informático.
+Durante ese periodo demostró una gran vocación de servicio,
+excelente trato con los usuarios y una actitud constante de aprendizaje.
+
+Su desempeño en la resolución de incidencias de hardware y software fue impecable,
+y contribuyó activamente a la documentación de procedimientos internos
+que mejoraron la eficiencia del departamento de soporte.
+
+Sin duda, su paso por nuestra empresa dejó una huella positiva tanto profesional
+como humana.
+
+Atentamente,
+
+María Torres
+Responsable de Soporte Técnico
+GlobalTech
+m.torres@globaltech.es
+
+-------------------------------------------
+— Fin del documento —
+-------------------------------------------
