@@ -1,0 +1,113 @@
+*{
+
+}
+
+body {
+    background-color: #F1F0FF;
+}
+
+h1 {
+    background-color: #C3C3E5;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+img {
+    border: 5px solid black;
+    margin-right: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    border-left: 5px solid red;
+    padding-left: 5px;
+}
+
+p {
+
+}
+
+#header {
+  
+}
+
+#content{
+    margin-left: 60px;
+}
+
+#text {
+    text-align: justify;
+}
+
+#text p {
+    border: 5px dashed black;
+    background-color: #C3C3E5;
+    box-shadow: 5px 5px 5px grey;
+    text-indent: 40px;
+    width: 90%;
+    padding: 10px;
+    align-content: center;
+}
+
+#text p:first-child {
+    background: url("../images/fondoParrafo.png") repeat;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;  
+}
+
+#text p:last-child {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu li{
+    
+}
+
+#menu li a:hover{
+    color: black;
+    text-decoration: 5px underline red;
+}
+
+#footer{
+    background-color: #443266;
+    border-top: 5px solid black;
+    text-align: center;
+    color: white
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: #443266;
+    background-color: white;
+}
+
+#image {
+    float: right;
+    margin-right: 60px;
+}
+
+@media all and (max-width: 500px) {
+    #image img {
+            border: 5px solid red;
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+    }
+}
