@@ -103,6 +103,7 @@ p {
     margin-right: 60px;
 }
 
+
 @media all and (max-width: 500px) {
     #image img {
             border: 5px solid red;

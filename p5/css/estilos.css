@@ -1,0 +1,238 @@
+*{
+  margin: 0px auto;
+}
+
+body {
+  background: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  border: dashed 5px #FF9900;
+  margin: 10px;
+}
+
+ul {
+  color: white;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+#header {
+  margin-top: 35px;
+  text-align: center;
+  background-color: #FF9900;
+  border-bottom: 5px solid #6599FF;
+  border-top: 5px solid #6599FF;
+  color: white;
+  padding-top: 10px;
+}
+
+#content{
+  
+}
+
+#menu {
+  text-align: center;  
+  background-color: #097054;
+  border: 3px dotted white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+
+    /* posición fija*/ 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu a{
+  color: white;
+  text-decoration: none
+}
+
+
+#menu li{
+  display: inline;
+  padding-left: 5px;  
+}
+
+#menu li a:hover{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  background-color: #FF9900;
+  text-decoration-thickness: 4px;
+}
+
+#footer{
+  background-color: #097054;
+  text-align: center;
+  color: white;
+  border-top: 5px solid black;
+  clear: both;
+
+  /* posición fija*/ 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover{
+  color: #443266;
+  background-color: white;
+  text-decoration: none;
+}
+
+#image {
+  text-align: right;
+  margin-right: 60px;
+}
+
+#imageLeft {
+ 
+  /*alineada a la izquierda*/ 
+  float: left;
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#imageRight {
+ 
+  /*alineada a la derecha*/ 
+  float: right;
+
+
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#textMain {
+/*Esta capa desaparece al pulsar el botón*/
+  display: hidden;
+  
+  clear:both
+}
+
+#imageToHide {
+ /* La capa de las imagenes aparece a la izquierda de la pantalla*/
+  visibility: visible;
+  float: left;
+
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#textCookie {
+  text-align: center;
+}
+
+#cookieEU {
+ /*La capa esta posicionada casi al centro de la pantalla. NO se queda fija*/
+  position: absolute;
+  top: 30%; 
+  left: 20%;
+  width: 60%;
+    
+  border:2px solid red;
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 50px black;
+}
+
+#textOverflow {
+ /* Barra de scroll vertical */
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  
+  height: 250px;
+  text-align: justify;
+  border: 5px solid black;
+  background-color: white;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+#textCentral {
+  margin-top: 10px;
+  padding: 15px;
+  border: 5px dashed black;
+  background-color: white;
+  margin: 10px 250px ;
+  border-radius: 30px 30px 30px 30px ;     /* resto */
+}
+
+.button {
+  	background-color: #097054; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media all and (max-width: 500px) {
+  #imageLeft {
+    /*Barra de menu siempre está*/
+    float: none;
+
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  #imageRight {
+   /*Barra de menu siempre está*/
+    float: none;
+
+    text-align: center;
+    clear: both;
+    padding-bottom: 5px;
+  }
+  
+  #textCentral {
+    margin: 0px 0px ;
+  }
+  
+  #imageToHide {
+   /*Barra de menu siempre está*/
+    float: none;
+   
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #textOverflow {
+    margin-right: 0px;
+  }
+  
+  #header {
+    margin-top: 50px;
+  }
+ 
+}
+
+@media all and (max-width: 300px) {
+  #header {
+  margin-top: 100px;
+  }
+}
