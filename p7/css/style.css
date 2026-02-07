@@ -38,14 +38,14 @@ body {
     border: solid 5px black;
     display:flex;
     align-items: center;
-    background-image: url(/images/fondo.png);
+    background-image: url(/images/fondo.jpg);
     background-size: cover;
     box-sizing: border-box;
 }
 
 .imgName {
-    flex-basis: 2 1 auto; /*¿No tengo muy claro si esto está funcionando?*/
-    margin-left: 5%; /*¿No tengo muy claro si esto está funcionando?*/
+    flex-basis: 2 1 auto; 
+    margin-left: 5%;
 }
 
 .name {
