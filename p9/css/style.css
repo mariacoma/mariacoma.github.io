@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    margin: 0;
+    color: black;
+}
+
+form, #panel {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border-color: black;
+    outline: none;
+}
+
+#botonAnyadir, #botonResuelve {
+    width: 26%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#botonAnyadir:hover, #botonResuelve:hover {
+    background-color: #333;
+}
+
+#panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#panel li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#panel li:last-child {
+    border-bottom: none;
+}
+
+#solucion:not(:empty) {
+    background-color: #d1ae63;
+    color: white;
+    width: 24%;
+    padding: 25px;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
